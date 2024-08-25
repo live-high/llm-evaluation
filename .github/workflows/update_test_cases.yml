@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - 'data/test_cases.json'
+      - 'data/update_readme.py'
+      - '.github/workflows/update_test_cases.yml'
 
 jobs:
   update-readme:
