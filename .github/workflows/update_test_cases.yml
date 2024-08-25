@@ -18,10 +18,11 @@ jobs:
         python-version: '3.x'
     - name: Update README
       run: python data/update_readme.py --input data/test_cases.json --output test_cases.md
-    - name: Commit changes
-      run: |
-        git config --local user.email "sunny_yyh_0116@163.com"
-        git config --local user.name "live-high"
-        git add test_cases.md
-        git commit -m "DOC: Update Test cases README" || echo "No changes to commit"
-        git push
+    
+    - uses: Readme-Workflows/readme-replacer@v1.0.1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        # Those are all default values and only are shown for demonstration
+        COMMIT_FILE: 'test_cases.md'
+
