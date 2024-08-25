@@ -24,5 +24,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         # Those are all default values and only are shown for demonstration
+        TEMPLATE_FILE: 'data/test_cases.json'
         COMMIT_FILE: 'test_cases.md'
+          
 
