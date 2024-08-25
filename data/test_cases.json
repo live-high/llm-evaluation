@@ -78,5 +78,37 @@
     "title_zh": "长篇诗歌生成",
     "description_zh": "测试模型生成大量创意内容的能力。",
     "prompt_zh": "生成一首8000字的诗。"
+  },
+  {
+    "title": "RAG Paper Summary",
+    "description": "Test the model's ability to summarize recent academic papers on a specific topic.",
+    "prompt": "Please summarize the latest RAG papers for this week?",
+    "title_zh": "RAG论文摘要",
+    "description_zh": "测试模型总结特定主题最新学术论文的能力。",
+    "prompt_zh": "请总结本周最新的RAG（检索增强生成）论文？"
+  },
+  {
+    "title": "Travel Recommendations",
+    "description": "Evaluate the model's knowledge of specific locations and ability to provide travel recommendations.",
+    "prompt": "Places to eat in Belize?",
+    "title_zh": "旅行推荐",
+    "description_zh": "评估模型对特定地点的了解和提供旅行建议的能力。",
+    "prompt_zh": "伯利兹有哪些值得一吃的地方？"
+  },
+  {
+    "title": "Current Events Awareness",
+    "description": "Test the model's awareness of current events and ability to interpret vague requests.",
+    "prompt": "See new posts: AI doomsday",
+    "title_zh": "时事意识",
+    "description_zh": "测试模型对当前事件的认知和解释模糊请求的能力。",
+    "prompt_zh": "查看新帖子：人工智能末日"
+  },
+  {
+    "title": "Creative Sentence Generation",
+    "description": "Evaluate the model's creativity and ability to generate diverse sentences with a specific constraint.",
+    "prompt": "Write ten different sentences that end with word \"apple\"",
+    "title_zh": "创意句子生成",
+    "description_zh": "评估模型的创造力和在特定约束下生成多样化句子的能力。",
+    "prompt_zh": "写出十个不同的句子，每个句子都以"苹果"一词结尾"
   }
 ]
