@@ -1,4 +1,4 @@
-name: Update README
+name: Update Test cases README
 
 on:
   push:
@@ -15,11 +15,11 @@ jobs:
       with:
         python-version: '3.x'
     - name: Update README
-      run: python data/update_readme.py data/test_cases.json test_cases.md
+      run: python data/update_readme.py --input data/test_cases.json --output test_cases.md
     - name: Commit changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add README.md
-        git commit -m "Update test_cases README" || echo "No changes to commit"
+        git commit -m "Update Test cases README" || echo "No changes to commit"
         git push
