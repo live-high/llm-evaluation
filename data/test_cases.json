@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Best Sushi Description",
+    "description": "Test the model's ability to handle subjective questions and provide nuanced responses.",
+    "prompt": "Please describe what is the best sushi.",
+    "title_zh": "最佳寿司描述",
+    "description_zh": "测试模型处理主观问题并提供细致回答的能力。",
+    "prompt_zh": "请描述什么是最好的寿司。"
+  },
+  {
+    "title": "Basic Python Function",
+    "description": "Evaluate the model's code generation capabilities for a simple mathematical operation.",
+    "prompt": "Create a detailed Python function that multiplies two numbers and then subtracts 10 from it.",
+    "title_zh": "基础Python函数",
+    "description_zh": "评估模型对简单数学运算的代码生成能力。",
+    "prompt_zh": "创建一个详细的Python函数，该函数将两个数相乘，然后从结果中减去10。"
+  },
+  {
+    "title": "Prime Number Sum",
+    "description": "Test the model's mathematical reasoning and logical skills in tasks involving prime numbers.",
+    "prompt": "What are the last 4 digits of the sum of the first 70 prime numbers?",
+    "title_zh": "质数求和",
+    "description_zh": "测试模型在涉及数学推理和逻辑的任务上的表现。",
+    "prompt_zh": "前70个质数的总和的最后四位数字是多少？"
+  },
+  {
+    "title": "Family Relationship Logic",
+    "description": "Test the model's ability to reason about family relationships based on given information.",
+    "prompt": "Kaye has two brothers. Each of her brothers has two sisters. How many sisters does Kaye have?",
+    "title_zh": "家庭关系逻辑",
+    "description_zh": "测试模型根据给定信息推理家庭关系的能力。",
+    "prompt_zh": "凯伊有两个兄弟。她的每个兄弟都有两个姐妹。凯伊有几个姐妹？"
+  },
+  {
+    "title": "Strawberry Letter Count",
+    "description": "Check if the model can accurately count the number of specific letters in a word.",
+    "prompt": "How many rs are in the word strawberry?",
+    "title_zh": "草莓字母计数",
+    "description_zh": "检查模型是否能准确计算单词中特定字母的出现次数。",
+    "prompt_zh": "在strawberry这个单词中有多少个r？"
+  },
+  {
+    "title": "LLM Concept Game",
+    "description": "Test the model's creative coding skills by asking it to design a game that teaches LLM concepts.(The game should be educational and interactive.)",
+    "prompt": "Generate a creative Python game that helps me with learning about LLMs. I need to improve my technical expertise and memorize the key concepts.",
+    "title_zh": "LLM概念游戏",
+    "description_zh": "通过要求模型设计一个教授LLM概念的游戏来测试其创意编程技能。(游戏应该具有教育性和互动性)",
+    "prompt_zh": "生成一个创意Python游戏，帮助我学习LLM。我需要提高我的技术能力和记忆关键概念。"
+  },
+  {
+    "title": "Candle Riddle",
+    "description": "Assess the model's logical reasoning abilities with a tricky riddle.",
+    "prompt": "Peter has 5 candles that are all the same length. He lights them all at the same time. After a while, he blows out the candles one after the other. Which of the five candles was the first one he has blown out? Here is a figure of the five candles after they have been blown out. The number of = represents the length of the candle. Respond with the label of the candle that ha.t een blown out first by Peter.\n1)=====\n2)=========\n3)==========\n4)=\n5)==\n",
+    "title_zh": "蜡烛谜题",
+    "description_zh": "通过一个棘手的谜题评估模型的逻辑推理能力。",
+    "prompt_zh": "彼得有5支长度相同的蜡烛。他同时点燃了所有的蜡烛。过了一会儿，他依次吹灭了蜡烛。哪支蜡烛是彼得最先吹灭的？这里有5支蜡烛被吹灭后的图示。=的数量代表蜡烛的长度。请用彼得最先吹灭的蜡烛的标签来回答。\n1)=====\n2)=========\n3)==========\n4)=\n5)==\n"
+  },
+  {
+    "title": "Decimal Comparison",
+    "description": "Test the model's ability to compare decimal numbers accurately.",
+    "prompt": "Which number is bigger: 9.9 or 9.11?",
+    "title_zh": "小数比较",
+    "description_zh": "测试模型准确比较小数的能力。",
+    "prompt_zh": "哪个数字更大：9.9还是9.11？"
+  },
+  {
+    "title": "Math Word Problem",
+    "description": "Evaluate the model's approach to solving mathematical word problems, whether it can reason step by step.",
+    "prompt": "I went to the market and bought 10 apples. I gave 2 apples to the neighbor and 2 to the repairman. I then went and bought 5 more apples and ate 1. How many apples did I remain with? ",
+    "title_zh": "数学应用题",
+    "description_zh": "评估模型解决数学应用题的方法, 是否能一步步进行推理。",
+    "prompt_zh": "我去市场买了10个苹果。我给了邻居2个，给了修理工人2个。然后我又买了5个苹果，吃了1个。我还剩多少个苹果？"
+  },
+  {
+    "title": "Long-form Poetry Generation",
+    "description": "Test the model's capability to generate extensive creative content.",
+    "prompt": "Generate an 8000-word poem.",
+    "title_zh": "长篇诗歌生成",
+    "description_zh": "测试模型生成大量创意内容的能力。",
+    "prompt_zh": "生成一首8000字的诗。"
+  }
+]
