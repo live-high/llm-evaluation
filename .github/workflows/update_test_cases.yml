@@ -1,0 +1,25 @@
+name: Update README
+
+on:
+  push:
+    paths:
+      - 'data/test_cases.json'
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - name: Update README
+      run: python data/update_readme.py data/test_cases.json test_cases.md
+    - name: Commit changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add README.md
+        git commit -m "Update test_cases README" || echo "No changes to commit"
+        git push
