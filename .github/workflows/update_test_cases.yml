@@ -20,8 +20,8 @@ jobs:
       run: python data/update_readme.py --input data/test_cases.json --output test_cases.md
     - name: Commit changes
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
+        git config --local user.email "sunny_yyh_0116@163.com"
+        git config --local user.name "live-high"
         git add test_cases.md
         git commit -m "DOC: Update Test cases README" || echo "No changes to commit"
         git push
