@@ -109,6 +109,6 @@
     "prompt": "Write ten different sentences that end with word \"apple\"",
     "title_zh": "创意句子生成",
     "description_zh": "评估模型的创造力和在特定约束下生成多样化句子的能力。",
-    "prompt_zh": "写出十个不同的句子，每个句子都以"苹果"一词结尾"
+    "prompt_zh": "写出十个不同的句子，每个句子都以\"苹果\"一词结尾"
   }
 ]
